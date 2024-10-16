@@ -1,0 +1,21 @@
+{
+    "name": "db-custom-library",
+    "version": "1.0.3",
+    "private": false,
+    "scripts": {
+      "start": "ui5 serve -o test-resources/custom/lib/Train.html",
+      "build": "ui5 build --all"
+    },
+    "devDependencies": {
+      "ui5-middleware-livereload": "^0.7.0",
+      "@ui5/cli": "^3.0.0"
+    },
+    "ui5": {
+      "dependencies": [
+        "ui5-middleware-livereload"
+      ]
+    },
+    "dependencies": {
+
+    }
+  }

@@ -1,0 +1,41 @@
+{
+    "_version": "1.44.0",
+    "sap.app": {
+        "id": "custom.lib",
+        "type": "library",
+        "applicationVersion": {
+            "version": "${version}"
+        },
+        "title": "Custom Library Train"
+    },
+    "sap.ui": {
+        "technology": "UI5",
+        "deviceTypes": {
+            "desktop": true,
+            "phone": true,
+            "tablet": true
+        }
+    },
+    "sap.ui5": {
+        "contentDensities": {
+            "compact": true,
+            "cozy": true
+        },
+        "dependencies": {
+            "minUI5Version": "1.105.0",
+            "libs": {
+                "sap.ui.core": {}
+            }
+        },
+        "library": {
+            "i18n": {
+                "bundleUrl": "messagebundle.properties",
+                "supportedLocales": [
+                    "",
+                    "en"
+                ]
+            },
+            "css": true
+        }
+    }
+}
